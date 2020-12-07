@@ -74,3 +74,16 @@ Pamiętaj, aby nie otwierać pliku autoexec poprzez Word i upewnij się, że pli
 
 - [Visual Studio Code](https://code.visualstudio.com/) + Rozszerzenie [CSGO .cfg Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=dirt-lxiv.language-csgo-cfg) (Dodaje podświetlnie składni)
 - [Sublime Text 3](https://www.sublimetext.com/3) + [CFG Configuration Syntax Highlighting](https://packagecontrol.io/packages/CFG%20Configuration%20Syntax%20Highlighting) (Dodaje podświetlnie składni)
+
+<p align="center" >
+<b>Jeśli coś nie działa możesz utworzyć Issue na GitHUB</b>
+<br>
+<br>
+    <a title="Followers" href="https://github.com/kamack38">
+        <img src="https://img.shields.io/github/followers/kamack38?style=social" alt="Followers">
+    </a>
+    <a title="Stars" href="https://github.com/kamack38/csgo-config">
+        <img src="https://img.shields.io/github/stars/kamack38/csgo-config?style=social" alt="Stars">
+    </a>
+</p>
+
