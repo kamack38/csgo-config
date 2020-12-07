@@ -23,7 +23,7 @@
 - [Opis](#opis)
 - [Pliki i Foldery](#pliki-i-foldery)
 - [Instalacja](#instalacja)
-    - [Pojęcia](#poj)
+    - [Pojęcia](#pojęcia)
 - [Uwagi](#uwagi)
 
 ### Opis
