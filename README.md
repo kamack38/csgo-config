@@ -3,7 +3,7 @@
 <p align="center">
     <a title="Rozmiar Repozytorium" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
         <img src="https://img.shields.io/github/v/release/kamack38/csgo-config?label=Wydanie&style=flat-square" alt="Rozmiar" />
-  </a>
+    </a>
     <a title="Pobrania" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
         <img src="https://img.shields.io/github/downloads/kamack38/csgo-config/total?label=Pobrania&style=flat-square" alt="Ilość Pobrań" />
     </a>
@@ -61,7 +61,7 @@ Ten konfig zostały zrobiony przeze mnie [(Kamack38)](https://www.youtube.com/ch
 
 1. Pobierz plik klikając zielony przycisk Code, a następnie `Download ZIP`
 2. Wypakuj/ Wyodrębnij pliki do ścieżki csgo
-    - Podstawowa ścieżka 'X:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg'
+    - Podstawowa ścieżka `X:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
 3. Dodaj do parametrów startowych `+exec csgo` (jeśli chcesz, żeby konfig był uruchamiany przy stracie gry) lub w konsoli wpisz `exec csgo` (jeśli chcesz samemu decydować o uruchomieniu configu).`
 
 #### Pojęcia
