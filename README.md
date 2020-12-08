@@ -1,8 +1,8 @@
 # Autoexec
 
 <p align="center">
-    <a title="Rozmiar Repozytorium" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
-        <img src="https://img.shields.io/github/v/release/kamack38/csgo-config?label=Wydanie&style=flat-square" alt="Rozmiar" />
+    <a title="Najnowsze wydanie" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
+        <img src="https://img.shields.io/github/v/release/kamack38/csgo-config?label=Wydanie&style=flat-square" alt="Numer wydania" />
     </a>
     <a title="Pobrania" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
         <img src="https://img.shields.io/github/downloads/kamack38/csgo-config/total?label=Pobrania&style=flat-square" alt="Ilość Pobrań" />
