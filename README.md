@@ -1,4 +1,4 @@
-# Autoexec
+bbb# Autoexec
 
 <p align="center">
     <a title="Najnowsze wydanie" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
@@ -91,9 +91,9 @@ Ten konfig zostały zrobiony przeze mnie [(Kamack38)](https://www.youtube.com/ch
 - `-tickrate 128` - tworzone serwery lokalne mają ustawiony 128 tickrate
 - `-novid` - wyłącza krótki filmik przy włączaniu sie CS:GO, przez co zminiejsza czas włączania gry.
 
-***MOUSE1*** - lewy przycisk myszy
-***MOUSE2*** - prawy przycisk myszy
-***MOUSE3*** - kliknięcie kółka od myszy
+***MOUSE1*** - lewy przycisk myszy </br>
+***MOUSE2*** - prawy przycisk myszy </br>
+***MOUSE3*** - kliknięcie kółka od myszy </br>
 
 ### Zawartość Configu
 
