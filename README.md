@@ -1,4 +1,4 @@
-bbb# Autoexec
+# Autoexec
 
 <p align="center">
     <a title="Najnowsze wydanie" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
@@ -135,9 +135,9 @@ Alt | noclip (latanie)
 T | jumpthrow
 H | celownik do smoke
 Enter (numpad) | kupuje granat odłamkowy (300$)
-+ (numpad) | kupuje 2 granaty oślepiające (400$)
-- (numpad) | kupuje smoka (300$)
-* (numpad) | kupuje mołotowa/granat zapalający (400/600$)
+`+` (numpad) | kupuje 2 granaty oślepiające (400$)
+`-` (numpad) | kupuje smoka (300$)
+`*` (numpad) | kupuje mołotowa/granat zapalający (400/600$)
 Insert (0) (numpad) | kupuje kamizelke z helmem (1000$)
 Delete (numpad) | kupuje kamizelke (650$)
 End (1) (numpad) | kupuje AK47/M4A4 (2700/3100$)
