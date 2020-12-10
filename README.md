@@ -142,7 +142,7 @@ Enter (numpad) | kupuje granat odłamkowy (300$)
 `-` (numpad) | kupuje smoka (300$)
 `*` (numpad) | kupuje mołotowa/granat zapalający (400/600$)
 Insert (0) (numpad) | kupuje kamizelke z helmem (1000$)
-Delete (numpad) | kupuje kamizelke (650$)
+Delete (.) (numpad) | kupuje kamizelke (650$)
 End (1) (numpad) | kupuje AK47/M4A4 (2700/3100$)
 
 #### Aliasy :
