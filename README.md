@@ -316,10 +316,10 @@ mpr | Restartuje mecz | mp_restartgame 1
 
 Tekst | Funkcja | Komenda w w grze
 -|-|-
-gt | Przełącza pokazywanie trajektorii granatu |
+gt | Przełącza pokazywanie trajektorii granatu | -
 glimit |-|ammo_grenade_limit_total 
-lg | Rzuca ostatnio rzucony granat | 
-sd | Usuwa wszystkie smoki na mapie |
+lg | Rzuca ostatnio rzucony granat | -
+sd | Usuwa wszystkie smoki na mapie | -
 
 ##### Auto BunnyHop
 
