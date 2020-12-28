@@ -135,7 +135,7 @@ Alt | noclip (latanie)
 T | jumpthrow
 H | celownik do smoke
 Enter (numpad) | kupuje granat odłamkowy (300$)
-`+` (numpad) | kupuje 2 granaty oślepiające (400$)
+`+` (numpad) | kupuje granata oślepiającego (200$)
 `-` (numpad) | kupuje smoka (300$)
 `*` (numpad) | kupuje mołotowa/granat zapalający (400/600$)
 Insert (0) (numpad) | kupuje kamizelke z helmem (1000$)
@@ -301,8 +301,10 @@ c | Czysci konsolę oraz krew na scianach | clear; r_cleardecals
 Tekst | Funkcja | Komenda w w grze
 -|-|-
 svn | Włącza sv_cheats | sv_cheats 1
-svoff | Wyłącz sv_cheats | sv_cheats 0
+svoff | Wyłącza sv_cheats | sv_cheats 0
 wh | Włącza/Wyłacza Wallhacka | toggle r_drawothermodels 1 2
+norecoil | Wyłącza/Włącza rozrzut i odrzut bronii | toggle weapon_accuracy_nospread 0 1; toggle weapon_recoil_scale 2.0 0; toggle weapon_recoil_cooldown 0.55 0; toggle weapon_recoil_view_punch_extra 0.055 0;
+hsonly | Wyłącza/Włącza zadawanie obreżeń wyłącznie po przez strały w głowę | toggle mp_damage_headshot_only 0 1
 hajs | Daje maksymalną ilość gotówki | impulse 101
 longroundtime | Ustawia czas rundy na 60 minut | mp_roundtime_defuse 60; mp_roundtime 60; mp_roundtime_hostage 60
 longbuytime | Ustawia czas kupowania na 9999 sekund | mp_buytime 999
@@ -344,6 +346,15 @@ bm | Przełącza powtarzanie naszych ruchów przez BOT'y | toggle bot_mimic 0 1
 bc | Przełącza kucanie BOT'ow | toggle bot_crouch 0 1
 bs | Przełącza zatrzymanie BOT'ow | toggle bot_stop 0 1
 
+
+##### Restartowanie Gry
+
+Tekst | Funkcja | Komenda w grze
+-|-|-
+ri | Restartuje grę w trybie insecure | restart_in_insecure
+ru | Restartuje grę w trybie niezaufanym | restart_in_untrusted
+rt | Restartuje grę w trybie zaufanym | restart_in_trusted
+rn | Restartuje grę | restart_normal
 
 ### Uwagi
 Pamiętaj, aby nie otwierać pliku autoexec poprzez Word i upewnij się, że plik nie ma w nazwie dwa razy .cfg. W obu przypadkach config może nie działać. Do edycji configu polecam :
