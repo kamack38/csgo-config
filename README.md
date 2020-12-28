@@ -4,6 +4,9 @@
     <a title="Najnowsze wydanie" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
         <img src="https://img.shields.io/github/v/release/kamack38/csgo-config?label=Wydanie&style=flat-square" alt="Numer wydania" />
     </a>
+    <a title="Data Ostatniej Aktualizacji" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
+        <img src="https://img.shields.io/github/last-commit/kamack38/csgo-config?label=Data%20Ostatniej%20Aktualizacji&style=flat-square" alt="Data ostatniej aktualizacji" />
+    </a>
     <a title="Pobrania" href="https://github.com/kamack38/csgo-config/releases" target="_blank">
         <img src="https://img.shields.io/github/downloads/kamack38/csgo-config/total?label=Pobrania&style=flat-square" alt="Ilość Pobrań" />
     </a>
@@ -139,7 +142,7 @@ Enter (numpad) | kupuje granat odłamkowy (300$)
 `-` (numpad) | kupuje smoka (300$)
 `*` (numpad) | kupuje mołotowa/granat zapalający (400/600$)
 Insert (0) (numpad) | kupuje kamizelke z helmem (1000$)
-Delete (numpad) | kupuje kamizelke (650$)
+Delete (.) (numpad) | kupuje kamizelke (650$)
 End (1) (numpad) | kupuje AK47/M4A4 (2700/3100$)
 
 #### Aliasy :
