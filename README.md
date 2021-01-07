@@ -115,16 +115,15 @@ Spacja | skok
 Scroll w dół | skok
 Shift | skradanie
 Ctrl | kucanie
-Q | podwójne Q
 R | przeładowanie
 E | użycie
 F | sprawdzanie bronii
-G | wyrzucenie bronii
+Q | wyrzucenie bronii
 B | menu kupowania
 Z | wybiera granat oślepiający
 X | wybiera granat dymny
-C | wybiera granat odłamkowy
-N | wybiera zatrzyk wzmacniający
+C | wybiera granat zapalający lub mołotowa
+G | wybiera zatrzyk wzmacniający
 Y | wiadomość do druzyny
 Enter | wiadomość do wszystkich
 U | wyciszenie czatu głosowego
@@ -278,6 +277,7 @@ Tekst | Komenda w w grze
 500hp | ent_fire !self addoutput "health 500"
 1000hp | ent_fire !self addoutput "health 1000"
 2000hp | ent_fire !self addoutput "health 2000"
+3000hp | ent_fire !self addoutput "health 3000"
 
 ##### Komendy informacyjne
 
@@ -298,6 +298,7 @@ exc | Uruchamia ten config jeszcze raz | exec csgo
 q | Wychodzi z gry | quit
 dc | Wychodzi z serwera | disconnect
 c | Czysci konsolę oraz krew na scianach | clear; r_cleardecals
+reset | Usuwa wszystkie bindy oraz uruchamia config jeszcze raz | unbindall; exec csgo
 
 ##### Serwer lokalny
 
