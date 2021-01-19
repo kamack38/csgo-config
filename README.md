@@ -124,6 +124,7 @@ Z | wybiera granat oślepiający
 X | wybiera granat dymny
 C | wybiera granat zapalający lub mołotowa
 G | wybiera zatrzyk wzmacniający
+M | pokazuje ekran zmiany drużyny
 Y | wiadomość do druzyny
 Enter | wiadomość do wszystkich
 U | wyciszenie czatu głosowego
@@ -143,6 +144,15 @@ Enter (numpad) | kupuje granat odłamkowy (300$)
 Insert (0) (numpad) | kupuje kamizelke z helmem (1000$)
 Delete (.) (numpad) | kupuje kamizelke (650$)
 End (1) (numpad) | kupuje AK47/M4A4 (2700/3100$)
+(2) (numpad) | kupuje AWP (4750$)
+PgDn (3) (numpad) | kupuje MAC-10/MP9 (1050/1200$)
+(4) (numpad) | kupuje SG552/AUG (3000/3300$)
+5 (numpad) | kupuje Desert Eagle (700$)
+del | ponawia rzut granatu
+home | przełącza powtarzanie ruchów przez BOT'y
+end | przełącza kucanie BOT'ów
+page up | ustawia BOT'a w danym miejscu
+page down | dodaje BOT'a do gry
 
 #### Aliasy :
 
@@ -256,7 +266,7 @@ stiletto | give weapon_knife_stiletto
 talon | give weapon_knife_widowmaker
 ursus | give weapon_knife_ursus
 
-**Uwaga!** Każda z tych komend uruchamia osobny config znajdujący się w ścieżce custom\knives\... .cfg, z powodu brfaku możliwości użycia kluczowej komendy (ent_fire weapon_knife addoutput "classname weapon_knifegg") za pomocą aliasu.
+**Uwaga!** Każda z tych komend uruchamia osobny config znajdujący się w ścieżce custom\knives\... .cfg, z powodu braku możliwości użycia kluczowej komendy (ent_fire weapon_knife addoutput "classname weapon_knifegg") za pomocą aliasu.
 
 ##### Inne
 
@@ -299,6 +309,8 @@ q | Wychodzi z gry | quit
 dc | Wychodzi z serwera | disconnect
 c | Czysci konsolę oraz krew na scianach | clear; r_cleardecals
 reset | Usuwa wszystkie bindy oraz uruchamia config jeszcze raz | unbindall; exec csgo
+fp | Przełącza na widok z pierwszej osoby | firstperson
+tp | Przełącza na widok z trzeciej osoby | thirdperson
 
 ##### Serwer lokalny
 
