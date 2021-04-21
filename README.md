@@ -288,7 +288,7 @@ mapy | Pokazuje aliasy na wczytwanie map
 
 Tekst | Funkcja | Komenda w w grze
 -|-|-
-exc | Uruchamia ten config jeszcze raz | exec csgo
+exc | Uruchamia ten config jeszcze raz | exec autoexec
 q | Wychodzi z gry | quit
 dc | Wychodzi z serwera | disconnect
 c | Czysci konsolę oraz krew na scianach | clear; r_cleardecals
