@@ -71,66 +71,66 @@ Klawisz/Przycisk| Funkcja
 MOUSE1 | strzał
 MOUSE2 | strzał alternatywny
 MOUSE3 | znacznik
-W | ruch do przodu
-A | ruch w lewo
-S | ruch do tyłu
-D | ruch w prawo
-Spacja | skok
+<kbd>W</kbd> | ruch do przodu
+<kbd>A</kbd> | ruch w lewo
+<kbd>S</kbd> | ruch do tyłu
+<kbd>D</kbd> | ruch w prawo
+<kbd>Spacja</kbd> | skok
 Scroll w dół | skok
-Shift | skradanie
-Ctrl | kucanie
-1 | broń podstawowa
-2 | broń pomocnicza
-3 | broń biała
-4 | zmiana granatów
-5 | materiały wybuchowe i pułapki
+<kbd>Shift</kbd> | skradanie
+<kbd>Ctrl</kbd> | kucanie
+<kbd>1</kbd> | broń podstawowa
+<kbd>2</kbd> | broń pomocnicza
+<kbd>3</kbd> | broń biała
+<kbd>4</kbd> | zmiana granatów
+<kbd>5</kbd> | materiały wybuchowe i pułapki
 Scroll w górę | wybierz poprzednią broń
-Z | wybiera granat oślepiający
-X | wybiera granat dymny
-C | wybiera granat zapalający / mołotowa
-G | wybiera zatrzyk wzmacniający
-R | przeładowanie
-E | użycie
-F | sprawdzanie bronii
-Q | wyrzucenie bronii
-B | menu kupowania
-M | pokazuje ekran zmiany drużyny
-N | otwiera menu grafiti
-Y | wiadomość do druzyny
-Enter | wiadomość do wszystkich
-U | wyciszenie czatu głosowego
-V | mowienie na czacie głosowym
-TAB | tabela wyników + net graph
-O | rozkazy radiowe
-P | rodstawowe meldunki radiowe
-F1 | otwiera menu głosowania
-F3 | próbuje kupić przedmioty w kolejności podanej w cl_autobuy
-F4 | kupuje przedmioty zakupione w ostatniej rundzie
-F10 | otwiera menu dema
-F12 | robi zrzut z ekranu
-Alt | noclip (latanie)
-` | konsola
-T | jumpthrow
-H | celownik do smoke
+<kbd>Z</kbd> | wybiera granat oślepiający
+<kbd>X</kbd> | wybiera granat dymny
+<kbd>C</kbd> | wybiera granat zapalający / mołotowa
+<kbd>G</kbd> | wybiera zatrzyk wzmacniający
+<kbd>R</kbd> | przeładowanie
+<kbd>E</kbd> | użycie
+<kbd>F</kbd> | sprawdzanie bronii
+<kbd>Q</kbd> | wyrzucenie bronii
+<kbd>B</kbd> | menu kupowania
+<kbd>M</kbd> | pokazuje ekran zmiany drużyny
+<kbd>N</kbd> | otwiera menu grafiti
+<kbd>Y</kbd> | wiadomość do druzyny
+<kbd>Enter</kbd> | wiadomość do wszystkich
+<kbd>U</kbd> | wyciszenie czatu głosowego
+<kbd>V</kbd> | mowienie na czacie głosowym
+<kbd>TAB</kbd> | tabela wyników + net graph
+<kbd>O</kbd> | rozkazy radiowe
+<kbd>P</kbd> | rodstawowe meldunki radiowe
+<kbd>F1</kbd> | otwiera menu głosowania
+<kbd>F3</kbd> | próbuje kupić przedmioty w kolejności podanej w cl_autobuy
+<kbd>F4</kbd> | kupuje przedmioty zakupione w ostatniej rundzie
+<kbd>F10</kbd> | otwiera menu dema
+<kbd>F12</kbd> | robi zrzut z ekranu
+<kbd>Alt</kbd> | noclip (latanie)
+<kbd>`</kbd> | konsola
+<kbd>T</kbd> | jumpthrow
+<kbd>H</kbd> | celownik do smoke
 MOUSE4 | skok + kucanie
-Enter (numpad) | kupuje granat odłamkowy (300$)
-\+ (numpad) | kupuje granata oślepiającego (200$)
-\- (numpad) | kupuje smoka (300$)
-\* (numpad) | kupuje mołotowa/granat zapalający (400/600$)
-Insert (0) (numpad) | kupuje kamizelkę z hełmem (1000$)
-Delete (.) (numpad) | kupuje kamizelkę (650$)
-End (1) (numpad) | kupuje AK47/M4A4 (2700/3100$)
-🡣 (2) (numpad) | kupuje AWP (4750$)
-PgDn (3) (numpad) | kupuje MAC-10/MP9 (1050/1200$)
-🡠 (4) (numpad) | kupuje SG552/AUG (3000/3300$)
-5 (numpad) | kupuje Desert Eagle (700$)
-🡢 (6) (numpad) | kupuje XM1014 (2000$)
-🡡 (8) (numpad) | kupuje AK47 / M4A4 + zestaw do rozbrajania, kamizelkę z hełmem, 2x granat oślepiający, granat dymny, granat odłamkowy (4700$/5500$)
-del | ponawia rzut granatu
-home | przełącza powtarzanie ruchów przez BOT'y
-end | przełącza kucanie BOT'ów
-page up | ustawia BOT'a w danym miejscu
-page down | dodaje BOT'a do gry
+<kbd>Enter</kbd> (numpad) | kupuje granat odłamkowy (300$)
+<kbd>+</kbd> (numpad) | kupuje granata oślepiającego (200$)
+<kbd>-</kbd> (numpad) | kupuje smoka (300$)
+<kbd>*</kbd> (numpad) | kupuje mołotowa/granat zapalający (400/600$)
+<kbd>Insert</kbd> (0) (numpad) | kupuje kamizelkę z hełmem (1000$)
+<kbd>Delete</kbd> (.) (numpad) | kupuje kamizelkę (650$)
+<kbd>End</kbd> (1) (numpad) | kupuje AK47/M4A4 (2700/3100$)
+<kbd>🡣</kbd> (2) (numpad) | kupuje AWP (4750$)
+<kbd>PgDn</kbd> (3) (numpad) | kupuje MAC-10/MP9 (1050/1200$)
+<kbd>🡠</kbd> (4) (numpad) | kupuje SG552/AUG (3000/3300$)
+<kbd>5</kbd> (numpad) | kupuje Desert Eagle (700$)
+<kbd>🡢</kbd> (6) (numpad) | kupuje XM1014 (2000$)
+<kbd>🡡</kbd> (8) (numpad) | kupuje AK47 / M4A4 + zestaw do rozbrajania, kamizelkę z hełmem, 2x granat oślepiający, granat dymny, granat odłamkowy (4700$/5500$)
+<kbd>del</kbd> | ponawia rzut granatu
+<kbd>home</kbd> | przełącza powtarzanie ruchów przez BOT'y
+<kbd>end</kbd> | przełącza kucanie BOT'ów
+<kbd>page up</kbd> | ustawia BOT'a w danym miejscu
+<kbd>page down</kbd> | dodaje BOT'a do gry
 
 ### Aliasy :
 
