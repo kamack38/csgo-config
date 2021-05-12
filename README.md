@@ -25,11 +25,12 @@
 
 - [Opis](#opis)
 - [Instalacja](#instalacja)
-    - [Pojęcia](#pojęcia)
+  - [Dostosowywanie](#dostosowywanie)
+  - [Pojęcia](#pojęcia)
 - [Zawartość Configu](#zawartość-configu)
-    - [Bindy](#bindy)
+  - [Bindy](#bindy)
     - [Aliasy](#aliasy)
-        - [Karabiny szturmowe](#karabiny-szturmowe)
+      - [Karabiny szturmowe](#karabiny-szturmowe)
         - [Strzelby](#strzelby)
         - [Pistolety Maszynowe](#pistolety-maszynowe)
         - [Pistolety](#pistolety)
@@ -46,6 +47,7 @@
 - [Uwagi](#uwagi)
 
 ## Opis
+
 Ten konfig zostały zrobiony przeze mnie [(Kamack38)](https://www.youtube.com/channel/UCyO3DTKTf_agdJjB-dUQ0QA) wspomagając się konfigiem [Sniper13](https://github.com/XIIIG/CS-GO-Config/).
 
 ## Instalacja
@@ -54,7 +56,12 @@ Ten konfig zostały zrobiony przeze mnie [(Kamack38)](https://www.youtube.com/ch
 2. Wypakuj/ Wyodrębnij pliki do ścieżki csgo.
     - Podstawowa ścieżka `X:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
 
+### Dostosowywanie
+
+Pobierz plik `klawisze.bat` i umieść go tam gdzie inne pliki, a następnie wykonuj wyświetlane polecenia.
+
 ### Pojęcia
+
 ***X*** - litera dysku na którym masz CS:GO. Jeżeli masz tylko jedny dysk prawdopodobnie jest to litera `C`
 
 ***MOUSE1*** - lewy przycisk myszy </br>
@@ -64,7 +71,7 @@ Ten konfig zostały zrobiony przeze mnie [(Kamack38)](https://www.youtube.com/ch
 
 ## Zawartość Configu
 
-### Bindy :
+### Bindy
 
 Klawisz/Przycisk| Funkcja
 :-:|-
@@ -126,13 +133,14 @@ MOUSE4 | skok + kucanie
 <kbd>5</kbd> (numpad) | kupuje Desert Eagle (700$)
 <kbd>🡢</kbd> (6) (numpad) | kupuje XM1014 (2000$)
 <kbd>🡡</kbd> (8) (numpad) | kupuje AK47 / M4A4 + zestaw do rozbrajania, kamizelkę z hełmem, 2x granat oślepiający, granat dymny, granat odłamkowy (4700$/5500$)
+<kbd>PgUp</kbd> (9) (numpad) |  kupuje AK47 / M4A4 + zestaw do rozbrajania, kamizelkę z hełmem, granat oślepiający, granat dymny, granat zapalający (4600$/5600$)
 <kbd>del</kbd> | ponawia rzut granatu
 <kbd>home</kbd> | przełącza powtarzanie ruchów przez BOT'y
 <kbd>end</kbd> | przełącza kucanie BOT'ów
 <kbd>page up</kbd> | ustawia BOT'a w danym miejscu
 <kbd>page down</kbd> | dodaje BOT'a do gry
 
-### Aliasy :
+### Aliasy
 
 #### Karabiny szturmowe
 
@@ -246,17 +254,12 @@ survival | Nóż Survivalowy | give weapon_knife_canis
 stiletto | Sztylet | give weapon_knife_stiletto
 talon | Szpon | give weapon_knife_widowmaker
 ursus | Ursus | give weapon_knife_ursus
-
-**Uwaga!** Każda z tych komend uruchamia osobny config znajdujący się w ścieżce custom\knives\... .cfg, z powodu braku możliwości użycia kluczowej komendy (ent_fire weapon_knife addoutput "classname weapon_knifegg") za pomocą aliasu.
-
-#### Inne
-
-Tekst | Funkcja | Komenda w w grze
--|-|-
 axe | siekiera | give weapon_axe
 hammer | młotek | give weapon_hammer
 spanner | klucz francuski | give weapon_spanner
 fists | pięsci | give weapon_fists
+
+**Uwaga!** Każda z tych komend uruchamia osobny config znajdujący się w ścieżce custom\knives\... .cfg, z powodu braku możliwości użycia kluczowej komendy (ent_fire weapon_knife addoutput "classname weapon_knifegg") za pomocą aliasu.
 
 #### Komendy na punkty zdrowia
 
@@ -282,7 +285,9 @@ info | Pokazuje informacje o configu
 aliasy | Pokazuje wszystkie aliasy
 bindy | Pokazuje wszystkie bindy
 trening | Uruchamia ustawienia do trenowania
+dangerzone | Uruchamia ustawienia do trybu battle royale
 mapy | Pokazuje aliasy na wczytwanie map
+discord | Wysyła na czacie drużynowym link do Discorda
 
 #### Przydatne komendy
 
@@ -306,6 +311,7 @@ Tekst | Funkcja | Komenda w w grze
 svn | Włącza sv_cheats | sv_cheats 1
 svoff | Wyłącza sv_cheats | sv_cheats 0
 wh | Włącza/Wyłacza Wallhacka | toggle r_drawothermodels 1 2
+inv/vis | Włącza/Wyłącza niewidzialność | ent_fire !self addoutput "rendermode 0/6"
 norecoil | Wyłącza/Włącza rozrzut i odrzut bronii | toggle weapon_accuracy_nospread 0 1; toggle weapon_recoil_scale 2.0 0; toggle weapon_recoil_cooldown 0.55 0; toggle weapon_recoil_view_punch_extra 0.055 0;
 hsonly | Wyłącza/Włącza zadawanie obreżeń wyłącznie po przez strały w głowę | toggle mp_damage_headshot_only 0 1
 hajs | Daje maksymalną ilość gotówki | impulse 101
@@ -341,6 +347,8 @@ Tekst | Funkcja | Komenda w w grze
 -|-|-
 fp | Przełącza na widok z pierwszej osoby | firstperson
 tp | Przełącza na widok z trzeciej osoby | thirdperson
+demofov | zmienia fov oraz pozycję bronii | -
+quake | ustawia fov na ten podobny z gry quake | -
 fortnite | Włącza widok podobny do tego z gry Fortnite | -
 
 #### BOTy
@@ -385,8 +393,11 @@ rn | Restartuje grę | restart_normal
 Tekst | Funkcja
 -|-
 afk on / afk off | przełącza tryb AFK
+jungle | zmienia skybox na dżunglowy
+torch | zapala wszystkich graczy
 
 ## Uwagi
+
 Pamiętaj, aby nie otwierać pliku autoexec poprzez Word i upewnij się, że plik nie ma w nazwie dwa razy .cfg. W obu przypadkach config może nie działać. Do edycji configu polecam :
 
 - [Visual Studio Code](https://code.visualstudio.com/) + Rozszerzenie [CSGO .cfg Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=dirt-lxiv.language-csgo-cfg) (Dodaje podświetlnie składni)
