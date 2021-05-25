@@ -23,28 +23,39 @@
 
 ## Spis treści
 
-- [Opis](#opis)
-- [Instalacja](#instalacja)
-  - [Dostosowywanie](#dostosowywanie)
-  - [Pojęcia](#pojęcia)
-- [Zawartość Configu](#zawartość-configu)
-  - [Bindy](#bindy)
+<!-- TOC -->
+
+- [Autoexec](#autoexec)
+  - [Spis treści](#spis-treści)
+  - [Opis](#opis)
+  - [Instalacja](#instalacja)
+    - [Dostosowywanie](#dostosowywanie)
+    - [Pojęcia](#pojęcia)
+  - [Zawartość Configu](#zawartość-configu)
+    - [Bindy](#bindy)
     - [Aliasy](#aliasy)
       - [Karabiny szturmowe](#karabiny-szturmowe)
-        - [Strzelby](#strzelby)
-        - [Pistolety Maszynowe](#pistolety-maszynowe)
-        - [Pistolety](#pistolety)
-        - [Granaty](#granaty)
-        - [Różne](#różne)
-        - [Noże](#noże)
-        - [Komendy na punkty zdrowia](#komendy-na-punkty-zdrowia)
-        - [Komendy informacyjne](#komendy-informacyjne)
-        - [Przydatne Komendy](#przydatne-komendy)
-        - [Serwer lokalny](#serwer-lokalny)
-        - [Granaty - ustawienia](#granaty-ustawienia)
-        - [Auto BunnyHop](#auto-bunnyhop)
-        - [BOTy](#boty)
-- [Uwagi](#uwagi)
+      - [Strzelby](#strzelby)
+      - [Pistolety maszynowe](#pistolety-maszynowe)
+      - [Pistolety](#pistolety)
+      - [Granaty](#granaty)
+      - [Różne](#różne)
+      - [Noże](#noże)
+      - [Komendy na punkty zdrowia](#komendy-na-punkty-zdrowia)
+      - [Komendy informacyjne](#komendy-informacyjne)
+      - [Przydatne komendy](#przydatne-komendy)
+      - [Serwer lokalny](#serwer-lokalny)
+      - [Granaty - ustawienia](#granaty---ustawienia)
+      - [Auto BunnyHop](#auto-bunnyhop)
+      - [Zmiana widoku](#zmiana-widoku)
+      - [BOTy](#boty)
+      - [Głośność](#głośność)
+      - [Skróty](#skróty)
+      - [Restartowanie Gry](#restartowanie-gry)
+      - [Inne](#inne)
+  - [Uwagi](#uwagi)
+
+<!-- /TOC -->
 
 ## Opis
 
@@ -178,7 +189,7 @@ p90 | P90 | give weapon_p90
 ppbizon | PP-Bizon | give weapon_bizon
 ump | UMP-45 | give weapon_ump45
 mac10 | MAC-10 | give weapon_mac10
-mp9 | MP9 | give weapon_mp9 
+mp9 | MP9 | give weapon_mp9
 mp7 | MP7 | give weapon_mp7
 
 #### Pistolety
@@ -414,4 +425,3 @@ Pamiętaj, aby nie otwierać pliku autoexec poprzez Word i upewnij się, że pli
         <img src="https://img.shields.io/github/stars/kamack38/csgo-config?style=social" alt="Stars">
     </a>
 </p>
-
